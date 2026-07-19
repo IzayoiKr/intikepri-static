@@ -1,14 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronRight, MapPin, Mail } from "lucide-react";
-
-const LogoSVG = () => (
-  <svg width="24" height="24" viewBox="0 0 40 40" fill="none">
-    <circle cx="20" cy="20" r="4" fill="white"/>
-    {[0,30,60,90,120,150,180,210,240,270,300,330].map((a,i) => (
-      <line key={i} x1="20" y1="20" x2={20+15*Math.cos(a*Math.PI/180)} y2={20+15*Math.sin(a*Math.PI/180)} stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
-    ))}
-  </svg>
-);
 
 export default function Footer() {
   const links = [
@@ -19,22 +11,36 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#0F0F0F] text-white">
-      <div className="bg-[#A42A28] py-12">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
-          <h3 className="font-serif text-2xl md:text-3xl font-bold text-white mb-3">Bergabung Bersama INTI Kepri</h3>
-          <p className="text-white/80 font-sans max-w-xl mx-auto mb-6">Mari bersama-sama membangun masyarakat Kepulauan Riau yang lebih baik.</p>
-          <Link href="/tentang-kami" className="inline-flex items-center gap-2 bg-white text-[#A42A28] px-6 py-3 font-sans text-sm font-semibold hover:bg-white/90 transition-colors">
+      {/* BAGIAN BACKGROUND YANG DI-UPDATE */}
+      <div 
+        className="relative py-16 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/footer-bg.jpeg')" }}
+      >
+        {/* Opsional: Overlay merah transparan supaya teks tetap gampang dibaca kalau gambarnya terlalu terang */}
+        <div className="absolute inset-0 bg-[#A42A28]/40" /> 
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 text-center">
+          <h3 className="font-serif text-2xl md:text-3xl font-bold text-white mb-3 drop-shadow-md">Bergabung Bersama INTI Kepri</h3>
+          <p className="text-white/90 font-sans max-w-xl mx-auto mb-6 drop-shadow">Mari bersama-sama membangun masyarakat Kepulauan Riau yang lebih baik.</p>
+          <Link href="/tentang-kami" className="inline-flex items-center gap-2 bg-white text-[#A42A28] px-6 py-3 font-sans text-sm font-semibold hover:bg-white/90 transition-colors shadow-lg">
             Pelajari Lebih Lanjut <ChevronRight size={16} />
           </Link>
         </div>
       </div>
+      {/* AKHIR BAGIAN BACKGROUND */}
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-[#A42A28] flex items-center justify-center">
-                <LogoSVG />
+                <Image 
+                  src="/images/Logo-INTI.png" 
+                  alt="Logo INTI Kepri" 
+                  width={40} 
+                  height={40} 
+                  className="object-contain"
+                />
               </div>
               <div>
                 <span className="font-serif font-bold text-sm tracking-wider">INTI KEPRI</span>

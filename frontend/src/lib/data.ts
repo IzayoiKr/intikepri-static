@@ -19,8 +19,8 @@ export const branches: Branch[] = [
 export const ketuaPeriode: Ketua[] = [
   { periode: "2026-2030", nama: "Piter Tanjaya S.H.", status: "Ketua Saat Ini" },
   { periode: "2024-2026", nama: "Piter Tanjaya S.H.", status: "Mantan Ketua" },
-  { periode: "2014-2028", nama: "Beny Suwandi S.H., M.H", status: "Mantan Ketua" },
-  { periode: "2006-2010", nama: "Harsono", status: "Mantan Ketua" },
+  { periode: "2010-2018", nama: "Beny Suwandi S.H., M.H", status: "Mantan Ketua" },
+  { periode: "2006-2010", nama: "Dato Harsono", status: "Mantan Ketua" },
   { periode: "2002-2006", nama: "Eddy C Lummawie", status: "Ketua Pendiri" },
 ];
 
@@ -51,9 +51,9 @@ export const bidangPengurus: Bidang[] = [
 
 export const sejarah = [
   "Perhimpunan Indonesia Tionghoa (INTI) Provinsi Kepulauan Riau didirikan pada tahun 2004 sebagai wadah organisasi masyarakat Tionghoa di wilayah Kepulauan Riau.",
-  "Sebagai organisasi sosial kemasyarakatan bersifat kebangsaan, INTI Kepri berkomitmen untuk memperkuat peran masyarakat Tionghoa dalam pembangunan daerah dan menjaga kerukunan antar umat beragama.",
-  "INTI Kepri telah aktif dalam berbagai bidang termasuk sosial, kemanusiaan, pendidikan, ekonomi, dan kebudayaan untuk memperkuat integrasi bangsa di tingkat lokal.",
-  "Seiring perkembangannya, INTI Kepri telah memiliki jaringan di delapan wilayah administratif di Kepulauan Riau.",
+  "Sebagai organisasi sosial kemasyarakatan bersifat kebangsaan, INTI Kepri berkomitmen untuk memperkuat peran masyarakat Tionghoa dalam pembangunan daerah dan menjaga kerukunan serta persatuan bangsa.",
+  "INTI Kepri telah aktif dalam berbagai bidang termasuk sosial, kemanusiaan, pendidikan, ekonomi, dan kebudayaan untuk memperkuat integrasi bangsa.",
+  "Seiring perkembangannya, INTI Kepri telah memiliki jaringan di hampir seluruh wilayah administratif di Kepulauan Riau.",
 ];
 
 export const categories = ["Semua", "Kegiatan", "Sosial", "Pendidikan", "Budaya", "Pelantikan", "Ekonomi"];

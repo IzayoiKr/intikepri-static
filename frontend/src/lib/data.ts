@@ -17,10 +17,9 @@ export const branches: Branch[] = [
 ];
 
 export const ketuaPeriode: Ketua[] = [
-  { periode: "2026-2030", nama: "Piter Tanjaya", status: "Ketua Saat Ini" },
-  { periode: "2024-2026", nama: "Piter Tanjaya", status: "Mantan Ketua" },
-  { periode: "2014-2024", nama: "Beni Suwandi", status: "Mantan Ketua" },
-  { periode: "2010-2014", nama: "Beni Suwandi", status: "Mantan Ketua" },
+  { periode: "2026-2030", nama: "Piter Tanjaya S.H.", status: "Ketua Saat Ini" },
+  { periode: "2024-2026", nama: "Piter Tanjaya S.H.", status: "Mantan Ketua" },
+  { periode: "2014-2028", nama: "Beny Suwandi S.H., M.H", status: "Mantan Ketua" },
   { periode: "2006-2010", nama: "Harsono", status: "Mantan Ketua" },
   { periode: "2002-2006", nama: "Eddy C Lummawie", status: "Ketua Pendiri" },
 ];

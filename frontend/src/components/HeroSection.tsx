@@ -40,13 +40,13 @@ export default function HeroSection() {
           PROVINSI<br/>KEPULAUAN RIAU
         </h1>
         <p className="text-white/60 font-sans text-sm md:text-base max-w-xl mx-auto leading-relaxed">
-          Berdedikasi untuk membangun masyarakat yang rukun, sejahtera, dan berkeadilan.
+          Tulus memberi, ikhlas mengabdi.
         </p>
         <p className="text-white/40 font-sans text-xs md:text-sm max-w-xl mx-auto mt-2 italic">
-          Dedicated to building a harmonious, prosperous, and just society.
+          Giving earnestly, serving wholeheartedly.
         </p>
         <p className="text-white/40 font-sans text-xs md:text-sm max-w-xl mx-auto mt-1 mb-8">
-          致力于建设一个和谐、繁荣、公正的社会。
+          真心付出，甘心奉献
         </p>
         <div className="flex items-center justify-center gap-4">
           <Link href="/tentang-kami" className="inline-flex items-center gap-2 bg-[#A42A28] text-white px-6 py-3 font-sans text-sm font-medium hover:bg-[#8a2320] transition-colors">

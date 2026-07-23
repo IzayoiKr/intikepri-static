@@ -23,9 +23,6 @@ export default function TentangKamiPage() {
             <h1 className="font-serif text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
               Perhimpunan Indonesia Tionghoa<br />Provinsi Kepulauan Riau
             </h1>
-            <p className="text-white/60 font-sans max-w-2xl leading-relaxed">
-              Berdedikasi untuk membangun masyarakat yang rukun, sejahtera, dan berkeadilan.
-            </p>
           </div>
         </section>
 

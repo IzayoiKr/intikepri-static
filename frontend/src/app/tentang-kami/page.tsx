@@ -64,8 +64,7 @@ export default function TentangKamiPage() {
         <section className="py-16 md:py-24 bg-[#F7F7F7]">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="text-center mb-12">
-              <p className="text-[#C8956C] font-sans text-sm tracking-[0.3em] uppercase mb-3">Visi & Misi</p>
-              <h2 className="font-serif text-2xl md:text-3xl font-bold text-[#1A1A1A]">Arah dan Tujuan Organisasi</h2>
+              <h2 className="font-sans text-2xl md:text-3xl font-bold text-[#C8956C] uppercase mb-3">Visi & Misi</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-[#E5E5E5] p-8">

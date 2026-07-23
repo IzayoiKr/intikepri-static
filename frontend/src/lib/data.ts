@@ -56,7 +56,7 @@ export const sejarah = [
   "Seiring perkembangannya, INTI Kepri telah memiliki jaringan di hampir seluruh wilayah administratif di Kepulauan Riau.",
 ];
 
-export const categories = ["Semua", "Kegiatan", "Sosial", "Pendidikan", "Budaya", "Pelantikan", "Ekonomi"];
+export const categories = ["Semua", "Batam", "TPI & Bintan", "Karimun", "Lingga", "Anambas", "Natuna"];
 export const imageOptions = ["/images/hero-bg.jpg", "/images/news-1.jpg", "/images/news-2.jpg", "/images/news-3.jpg"];
 
 export const fallbackNews: News[] = [];

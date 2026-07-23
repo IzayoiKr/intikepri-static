@@ -18,11 +18,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: {
     default:
-      "INTI Kepri — Perhimpunan Indonesia Tionghoa Provinsi Kepulauan Riau",
+      "INTI Kepri | Perhimpunan Indonesia Tionghoa Provinsi Kepulauan Riau",
     template: "%s | INTI Kepri",
   },
   description:
-    "Perhimpunan Indonesia Tionghoa (INTI) Provinsi Kepulauan Riau — berdedikasi untuk membangun masyarakat yang rukun, sejahtera, dan berkeadilan.",
+    "Perhimpunan Indonesia Tionghoa (INTI) Provinsi Kepulauan Riau — Tulus memberi, ikhlas mengabdi.",
   robots: {
     index: false,
     follow: false,

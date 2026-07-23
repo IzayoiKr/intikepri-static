@@ -61,8 +61,7 @@ export default function Footer() {
             </div>
             <p className="text-white/40 font-sans text-sm leading-relaxed">
               Perhimpunan Indonesia Tionghoa Provinsi Kepulauan Riau —
-              berdedikasi untuk membangun masyarakat yang rukun, sejahtera, dan
-              berkeadilan.
+              Tulus memberi, ikhlas mengabdi.
             </p>
           </div>
 

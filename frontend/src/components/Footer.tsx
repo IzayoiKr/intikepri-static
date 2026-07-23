@@ -76,7 +76,7 @@ export default function Footer() {
             <h4 className="font-serif text-sm font-semibold mb-4 text-white/80">Kontak</h4>
             <div className="space-y-3">
               <p className="text-white/40 font-sans text-sm flex items-start gap-2">
-                <MapPin size={14} className="mt-0.5 flex-shrink-0 text-[#C8956C]" /> Ruko The Capitol Blok B No.42, Batam
+                <MapPin size={14} className="mt-0.5 flex-shrink-0 text-[#C8956C]" /> Kota Batam, Provinsi Kepulauan Riau, Indonesia
               </p>
               <p className="text-white/40 font-sans text-sm flex items-center gap-2">
                 <Mail size={14} className="flex-shrink-0 text-[#C8956C]" /> perhimpunanintikepri@gmail.com
